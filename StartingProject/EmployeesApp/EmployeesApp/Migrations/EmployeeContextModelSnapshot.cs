@@ -46,14 +46,14 @@ namespace EmployeesApp.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("07e57250-5443-4bdc-be13-59239ada918e"),
+                            Id = new Guid("491e7efb-c70c-42a0-b2ea-cbda58fc6356"),
                             AccountNumber = "123-3452134543-32",
                             Age = 30,
                             Name = "Mark"
                         },
                         new
                         {
-                            Id = new Guid("195430d1-9227-451e-8378-65df427be580"),
+                            Id = new Guid("915cade4-62b3-4092-8737-a5d222b61786"),
                             AccountNumber = "123-9384613085-55",
                             Age = 28,
                             Name = "Evelin"
