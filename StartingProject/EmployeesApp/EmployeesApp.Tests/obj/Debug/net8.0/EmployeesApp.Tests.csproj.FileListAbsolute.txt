@@ -344,3 +344,5 @@ C:\xUnit\StartingProject\EmployeesApp\EmployeesApp.Tests\obj\Debug\net8.0\refint
 C:\xUnit\StartingProject\EmployeesApp\EmployeesApp.Tests\obj\Debug\net8.0\EmployeesApp.Tests.pdb
 C:\xUnit\StartingProject\EmployeesApp\EmployeesApp.Tests\obj\Debug\net8.0\EmployeesApp.Tests.genruntimeconfig.cache
 C:\xUnit\StartingProject\EmployeesApp\EmployeesApp.Tests\obj\Debug\net8.0\ref\EmployeesApp.Tests.dll
+C:\xUnit\StartingProject\EmployeesApp\EmployeesApp.Tests\bin\Debug\net8.0\Castle.Core.dll
+C:\xUnit\StartingProject\EmployeesApp\EmployeesApp.Tests\bin\Debug\net8.0\Moq.dll
