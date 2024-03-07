@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesApp", "EmployeesApp\EmployeesApp.csproj", "{07F07DDF-C172-4180-A2F3-6BD37F76E94B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesApp.Tests", "EmployeesApp.Tests\EmployeesApp.Tests.csproj", "{C3A17C7E-5ACB-4692-A3FA-7B5D04D8AB53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesApp.Tests", "EmployeesApp.Tests\EmployeesApp.Tests.csproj", "{C3A17C7E-5ACB-4692-A3FA-7B5D04D8AB53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

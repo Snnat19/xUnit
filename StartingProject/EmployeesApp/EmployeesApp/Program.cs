@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<EmployeeContext>(opts =>
-			   opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
+               opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
@@ -18,8 +18,8 @@ var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
 {
-	app.UseExceptionHandler("/Home/Error");
-	app.UseHsts();
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -30,8 +30,10 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-	name: "default",
-	pattern: "{controller=Employees}/{action=Index}/{id?}");
+    name: "default",
+    pattern: "{controller=Employees}/{action=Index}/{id?}");
 
 app.MigrateDatabase();
 app.Run();
+
+public partial class Program { }
